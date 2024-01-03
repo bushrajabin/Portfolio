@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nav = () => {
     return (
-        <div className='bg-yellow-800'>
+        <div className='bg-yellow-800 text-red-500 text-2xl flex flex-row  justify-between'>
             <div className='bg-red-900'>
                 <h3>Bushra jabin</h3>
             </div>
