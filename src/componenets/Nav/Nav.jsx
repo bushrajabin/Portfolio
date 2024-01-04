@@ -6,7 +6,7 @@ const Nav = () => {
 
 
     return (
-        <div className=' flex flex-row  justify-between p-5 cursor-pointer  xl:flex xl:flex-row xl:justify-between xl:p-5 xl:text-center xl:items-center xl:cursor-pointer  '>
+        <div className='  flex flex-row  justify-between p-5 cursor-pointer fixed w-full bg-white  xl:flex xl:flex-row xl:justify-between xl:p-5 xl:text-center xl:items-center xl:cursor-pointer xl:fixed  xl:w-full xl:z-0 xl:bg-white  '>
             <div className=" text-xl font-serif xl:text-2xl xl:font-serif xl:text-center ">
                 <h3>Bushra jabin</h3>
             </div>
