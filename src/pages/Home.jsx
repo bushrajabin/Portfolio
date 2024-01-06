@@ -6,7 +6,6 @@ import About from '../componenets/Bodypart/About'
 import Recomended from '../componenets/Recomended/Recomended';
 import Footer from '../componenets/Footer/Footer';
 import Contact from '../componenets/contact/Contact'
-import Errorpage from './Errorpage';
 
 const Home = () => {
     return (
@@ -16,7 +15,7 @@ const Home = () => {
             <Links />
             <About />
             <Recomended/>
-         <Footer/>
+         <Footer/> 
             {/* <Contact /> */}
 
 

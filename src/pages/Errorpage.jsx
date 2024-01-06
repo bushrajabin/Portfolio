@@ -1,10 +1,20 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-
 function Errorpage() {
+
+
   return (
-    <div>Errorpage</div>
+
+    <div>
+      <div>
+        <h2>eroor</h2>
+        <button onClick={backHome}>Back Home</button>
+      </div>
+    </div>
+
+
+
   )
 }
+
 
 export default Errorpage
