@@ -11,7 +11,7 @@ const App = () => {
       <Home />
       <BrowserRouter>
         <Routes>
-          <Route path='*' element={<Errorpage />} />
+          {/* <Route path='*' element={<Errorpage />} /> */}
 
 
         </Routes>

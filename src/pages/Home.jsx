@@ -11,18 +11,13 @@ import Contact from '../componenets/contact/Contact'
 const Home = () => {
     return (
         <>
-
+{/*             
             <Nav />
             <Links />
             <About />
             <Recomended />
-            <Footer /> 
-
-
-
-
-
-
+            <Footer />  */}
+            <Contact />
         </>
 
     )
