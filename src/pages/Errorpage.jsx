@@ -1,7 +1,13 @@
 import React from 'react'
+import { useRouteError } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 function Errorpage() {
 
 
+  const backHome=()=>{
+    
+    alert("hi")
+  }
   return (
 
     <div>

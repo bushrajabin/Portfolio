@@ -1,13 +1,22 @@
 import React from 'react'
 import Home from './pages/Home'
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Errorpage from './pages/Errorpage';
-import Contact from './componenets/contact/Contact';
 
 
 const App = () => {
   return (
-<Home/>
+    <>
+
+      <Home />
+      <BrowserRouter>
+        <Routes>
+          <Route path='*' element={<Errorpage />} />
+
+
+        </Routes>
+      </BrowserRouter>
+    </>
 
   )
 }

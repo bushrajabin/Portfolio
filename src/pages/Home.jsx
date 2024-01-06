@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from '../componenets/Nav/Nav'
 import Links from '../componenets/Links/Links'
@@ -14,9 +15,10 @@ const Home = () => {
             <Nav />
             <Links />
             <About />
-            <Recomended/>
-         <Footer/> 
-            {/* <Contact /> */}
+            <Recomended />
+            <Footer /> 
+
+
 
 
 
