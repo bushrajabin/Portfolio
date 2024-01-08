@@ -9,37 +9,61 @@ import {
 import Home from "./pages/Home";
 import About from "./componenets/Bodypart/About";
 import Contact from "./componenets/Contact/Contact";
-import Nav from "./componenets/Nav/Nav";
-import Links from "./componenets/Links/Links";
-import ReNotes from "./componenets/Recomended/ReNotes";
 import Errorpage from "./pages/Errorpage";
+import Nav from "./componenets/Nav/Nav";
+import Footer from "./componenets/Footer/Footer";
+import Links from "./componenets/Links/Links";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: (
+      <>
+        <Nav />
+        <Home />
+      </>
+    ),
   },
   {
     path: "*",
-    element: <Errorpage />,
+    
+
+    element: (
+      <>
+        <Nav />
+        <Errorpage />
+      </>
+    ),
   },
   {
     path: "/contact",
-    element: <Contact />
-
+    element: (
+      <>
+        <Nav />
+        <Contact />
+      </>
+    ),
   },
   {
     path: "/about",
     element: (
-      <div>
+      <>
+        <Nav />
         <About />
-      </div>
+      </>
     ),
   },
 ]);
 
 const App = () => {
-  return <RouterProvider router={router} />;
+  return (
+    <>
+  
+    <RouterProvider router={router} />
+    <Links/>
+    <Footer/>
+    </>
+  );
 };
 
 export default App;
