@@ -12,7 +12,7 @@ function Footer() {
 
             </div>
 
-            <div className=' flex flex-row items-center justify-end m-2 xl:flex xl:flex-row xl:m-2 xl:p-5 xl:space-x-2'>
+            <div className=' flex flex-row  justify-center p-3 m-2 space-x-10 xl:flex xl:flex-row xl:m-2 xl:p-5 xl:space-x-10'>
                <a href="https://github.com/bushrajabin" target='_blank' > <FaGithub /></a>
                 <a href="https://twitter.com/bushra_jabin" target='_blank'><FaTwitter /></a>
                 <a href="https://www.linkedin.com/in/bushra-jabin-72746424a/" target='_blank'><FaLinkedin /></a>
