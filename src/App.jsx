@@ -13,8 +13,6 @@ import About from "./components/About/About";
 import Links from "./components/Links/Links";
 import Footer from "./components/Footer/Footer";
 import Home from"./pages/Home"
-
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -42,6 +40,8 @@ const router = createBrowserRouter([
       <>
         <Nav />
         <Contact />
+
+        
       </>
     ),
   },

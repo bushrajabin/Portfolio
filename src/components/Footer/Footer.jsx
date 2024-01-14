@@ -1,8 +1,5 @@
 import React from 'react'
-import { FaYoutube } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { SocialIcons } from '../../common/Socialicons';
 function Footer() {
     return (
         <div className=' bg-white  flex flex-col justify-between  xl:flex xl:flex-row xl:justify-between xl:p-1 xl:items-center '>
@@ -13,10 +10,14 @@ function Footer() {
             </div>
 
             <div className=' flex flex-row  justify-center p-3 m-2 space-x-10 xl:flex xl:flex-row xl:m-2 xl:p-5 xl:space-x-10'>
-               <a href="https://github.com/bushrajabin" target='_blank' > <FaGithub /></a>
-                <a href="https://twitter.com/bushra_jabin" target='_blank'><FaTwitter /></a>
-                <a href="https://www.linkedin.com/in/bushra-jabin-72746424a/" target='_blank'><FaLinkedin /></a>
-                <a href="https://www.youtube.com/channel/UCevXFdbHBCiUxgF92UYe7VA" target='_blank'><FaYoutube /></a>
+            {SocialIcons.map((data, index, arr) => {
+            const { link, Icon } = data;
+            return (
+              <div>
+                  <a href={link} target="_blank"><Icon/></a>
+              </div>
+            );
+          })}
 
             </div>
 
