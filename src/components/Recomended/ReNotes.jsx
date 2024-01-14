@@ -1,7 +1,9 @@
 import React from 'react'
-import { Notes } from '../../common/Notes'
+// import { Notes } from '../../common/Notes'
 import { SlArrowRightCircle } from "react-icons/sl";
 import { useNavigate } from 'react-router-dom';
+import Notes from "../../common/Notes.json"
+console.log("notes",Notes)
 const ReNotes = () => {
 const navigate=useNavigate();
 const getNotes=()=>{

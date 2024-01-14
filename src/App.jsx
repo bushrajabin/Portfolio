@@ -6,13 +6,14 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./componenets/Bodypart/About";
-import Contact from "./componenets/Contact/Contact";
+import Nav from "./components/Nav/Nav";
 import Errorpage from "./pages/Errorpage";
-import Nav from "./componenets/Nav/Nav";
-import Footer from "./componenets/Footer/Footer";
-import Links from "./componenets/Links/Links";
+import Contact from "./components/Contact/Contact";
+import About from "./components/About/About";
+import Links from "./components/Links/Links";
+import Footer from "./components/Footer/Footer";
+import Home from"./pages/Home"
+
 
 const router = createBrowserRouter([
   {

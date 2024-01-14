@@ -1,7 +1,10 @@
 import React from "react";
+import About from "../components/About/About";
+import ReNotes from "../components/Recomended/ReNotes";
 
-import About from "../componenets/Bodypart/About";
-import ReNotes from "../componenets/Recomended/ReNotes";
+
+
+
 
 const Home = () => {
   return (
